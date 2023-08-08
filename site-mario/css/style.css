@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(black, red);
+    color: aliceblue;
+}
+
+.top{
+    text-align: center;
+}
+
+.paragrafo{
+    text-align: center;
+}
+
+hr{
+    height: 5px;
+    width: 50%;
+    background: blue;
+    border: none;
+}
+
+#galeria{
+    width: 1060px;
+    margin: auto;
+}
+img{
+    width: 350px;
+}
+#videoo{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#letreiro{
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
