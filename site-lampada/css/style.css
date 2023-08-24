@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(rgb(43, 74, 200),rgb(113, 55, 239));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center{
+    width: 500px;
+    height: 400px;
+    background: whitesmoke;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#on{
+    background: darkgrey;
+    border: 2px solid black;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#off{
+    background: darkgrey;
+    border: 2px solid black;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
