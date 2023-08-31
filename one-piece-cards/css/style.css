@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(rgb(218, 97, 67),rgb(194, 194, 194));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background:rgb(255, 255, 255);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container .areaFoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.titulo1{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.container .areaFoto img{
+    width: 200px;
+    height: auto;
+}
+
+.areaBotao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background: rgb(236, 96, 61);
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    background: rgb(255, 57, 43);
+}
