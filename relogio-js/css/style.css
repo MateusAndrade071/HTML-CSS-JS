@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(22.jpeg);
+    background-size: cover; 
+}
+
+
+.box-timer{
+    background: rgb(128, 128, 128);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.timer-box{
+    display: flex;
+    gap: 1rem;
+}
+
+.timer-hour, .timer-minute, .timer-second{
+    background: darkgray;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.pontos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.texto{
+    font-size: 10px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-box{
+    background: grey;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.day, .month, .year{
+    background: darkgray;
+    color: black;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box-date{
+    display: flex;
+    gap: 0.1rem;
+}
+
+.boaNoite{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
