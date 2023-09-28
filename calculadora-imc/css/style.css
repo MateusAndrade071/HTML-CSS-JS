@@ -1,0 +1,59 @@
+body{
+    background: url(./academia.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: rgba(245, 245, 245, 0.555);
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    margin-top: 25px;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.calc{
+    font-size: 13px;
+    display: flex;
+    align-self: start;
+    margin-left: 110px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resp{
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.473);
+    width: 180px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.caixa{
+    background: none;
+    border:none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
