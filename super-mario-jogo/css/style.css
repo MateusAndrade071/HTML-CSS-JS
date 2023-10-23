@@ -62,6 +62,10 @@ p{
     font-weight: bold;
 }
 
+/* @keyframes: comando usado para criar animações
+    pipe-animation: nome dado a animação
+    o from: define onde ela começa
+    o to: onde ela vai terminar   */
 @keyframes pipe-animation{
     from{
         right: -80px;
